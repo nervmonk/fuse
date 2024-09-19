@@ -2,6 +2,7 @@ package com.btsk.fuseintegration.fuse_integration.controller;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.btsk.fuseintegration.fuse_integration.annotations.ApiHeader;
@@ -17,6 +18,7 @@ import com.btsk.fuseintegration.fuse_integration.security.AuthUtil;
 import jakarta.servlet.http.HttpServletRequest;
 
 @RestController
+@RequestMapping("/fuse")
 public class FuseApi {
 
     @PostMapping("/underwriting-result")

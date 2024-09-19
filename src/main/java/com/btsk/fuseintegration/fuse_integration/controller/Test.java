@@ -24,7 +24,7 @@ public class Test {
         System.out.println(unixTimestamp);
         String beforeCode = "AGJPMSD9FLHCV2FJUIGCGH6IZRZI2LE9\n" +
                 unixTimestamp + "\n" +
-                "123456";
+                "123456789";
         System.out.println(encrypt(beforeCode));
     }
 }
