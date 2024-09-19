@@ -20,8 +20,8 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class TilakaApi {
 
-    private static final String certStatusFilename = "certificate_status.json";
-    private static final String kycResultFilename = "kyc_result.json";
+    private static final String certStatusFilename = "/data/certificate_status.json";
+    private static final String kycResultFilename = "/data/kyc_result.json";
 
     private static final ObjectMapper objectMapper = new ObjectMapper();
     
